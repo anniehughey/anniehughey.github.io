@@ -7,8 +7,12 @@
 
 /* nav */
 
-.left_nav {
-	margin-right: 50%;
+li.left {
+	float: left;
+}
+
+li.right {
+	float: right;
 }
 
 
