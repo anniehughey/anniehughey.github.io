@@ -234,8 +234,8 @@ button:focus,
 /*===== Header ===*/
 
 header[role="header"] {
-	padding-top: 80px;
-	padding-bottom: 39px;
+	padding-top: 10%;
+	padding-bottom: 20%;
 	max-height: 20%;
 }
 
