@@ -15,6 +15,7 @@ img {
 
 li.left {
 	float: left;
+	width: 86px;
 }
 
 li.right {
@@ -71,6 +72,7 @@ a:hover {
 	margin: 0;
 	padding: 15px;
 	width: 50px;
+	align-content: center;
 }
 
 .socialbtnsbtnsbtns li {
@@ -81,6 +83,7 @@ a:hover {
 .socialbtns li {
 	list-style: none outside none;
 	display: inline-block;
+	align-content: center;
 }
 
 .socialbtns .fa {
@@ -95,6 +98,9 @@ a:hover {
 	-o-transition: all ease-out 0.5s;
 	width: 25px!;
 	height: 25px!;
+	align-content: center;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .socialbtns .fa:hover {
@@ -151,8 +157,10 @@ a:hover {
 }
 
 .grid figure figcaption {
+	margin-top: 20px;
 	padding: 0;
-	color: #fff;
+	background color: white;
+	color: black;
 	text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
@@ -192,13 +200,10 @@ a:hover {
 
 .grid figure h2 {
 	word-spacing: -0.15em;
-	font-weight: 400;
 	color: #FFF;
 }
 
-.grid figure h2 span {
-	font-weight: 800;
-}
+.grid figure h2 span {}
 
 .grid figure h2,
 .grid figure p {
@@ -255,7 +260,7 @@ figure.effect-oscar figcaption::before {
 }
 
 figure.effect-oscar h2 {
-	font-weight: 400;
+	font-weight: 100;
 	margin: 15px;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -264,7 +269,7 @@ figure.effect-oscar h2 {
 }
 
 figure.effect-oscar h2 span {
-	font-weight: 800
+	font-weight: 100
 }
 
 figure.effect-oscar figcaption::before,

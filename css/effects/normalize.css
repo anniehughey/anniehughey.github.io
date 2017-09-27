@@ -13,6 +13,19 @@ summary {
 	display: block;
 }
 
+h2 {
+	font-weight: 100;
+	font-size: 3em;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+body {
+	font-weight: 100;
+}
+
 audio,
 canvas,
 video {

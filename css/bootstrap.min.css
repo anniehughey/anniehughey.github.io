@@ -110,7 +110,8 @@ sub {
 }
 
 img {
-	border: 0
+	border: 0;
+	width: 100%;
 }
 
 svg:not(:root) {
@@ -1401,8 +1402,8 @@ body {
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 1.42857143;
-	color: white;
-	background-color: #202020;
+	color: black;
+	background-color: #FFF;
 }
 
 button,
@@ -1457,7 +1458,7 @@ img {
 	height: auto;
 	padding: 4px;
 	line-height: 1.42857143;
-	background-color: #fff;
+	background-color: ##fb5353;
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	-webkit-transition: all .2s ease-in-out;
@@ -1514,7 +1515,7 @@ h4,
 h5,
 h6 {
 	line-height: 1.1;
-	color: inherit
+	color: black;
 }
 
 .h1 .small,
@@ -1541,9 +1542,8 @@ h5 .small,
 h5 small,
 h6 .small,
 h6 small {
-	font-weight: 400;
 	line-height: 1;
-	color: #777
+	color: black;
 }
 
 .h1,
@@ -1604,6 +1604,13 @@ h1 {
 .h2,
 h2 {
 	font-size: 30px
+}
+
+@media (max-width: 900px) {
+	.h2,
+	h2 {
+		font-size: 20px;
+	}
 }
 
 .h3,
@@ -4842,7 +4849,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .nav>li>a>img {
-	max-width: none
+	max-width: 100%
 }
 
 .nav-tabs {

@@ -200,7 +200,7 @@ q:after {
 a {
 	text-decoration: none;
 	outline: none;
-	color: #FFF;
+	color: black;
 	transition-delay: 0s;
 	transition-duration: 0.6s;
 	transition-property: all;
@@ -216,13 +216,13 @@ button:focus,
 
 ::-moz-selection {
 	background-color: #fb5353;
-	color: #fff;
+	color: black;
 	text-shadow: none;
 }
 
 ::selection {
 	background-color: #fb5353;
-	color: #fff;
+	color: black;
 	text-shadow: none;
 }
 
@@ -269,25 +269,61 @@ header[role="header"] nav ul {
 	margin: 0;
 	padding-top: 20px;
 	padding-right: 60px;
+	margin-bottom: 10px;
 }
 
 header[role="header"] nav ul>li {
 	font-weight: 100;
-	font-size: 24px;
+	font-size: 2em;
 	padding: 10px;
 	display: inline-block;
+}
+
+@media (max-width: 800px) {
+	header[role="header"] img {
+		width: 100%;
+	}
+	header[role="header"] h1>a {
+		max-width: 60px;
+		display: block;
+		float: left
+	}
+	header[role="header"] nav ul {
+		display: inline-block;
+		position: fixed;
+		z-index: 60;
+		text-align: right;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		padding-top: 5%;
+		margin-bottom: 5%;
+	}
+	header[role="header"] nav ul>li {
+		font-weight: 100;
+		font-size: 1em;
+		padding: 5px;
+		display: inline-block;
+	}
 }
 
 header[role="header"] nav ul>li>a {
 	display: inline-block;
 	line-height: 72px;
-	color: #FFF;
+	color: #9d9d9d;
+	max-width: 150px;
 }
 
 header[role="header"] nav ul>li:hover a,
 header[role="header"] nav ul>li.nav-active a {
 	text-decoration: none;
 	color: #fb5353;
+}
+
+header[role="header"] header ul>li {
+	text-align: center;
 }
 
 
@@ -300,20 +336,22 @@ main[role="main-inner-wrapper"] {
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],
 main[role="main-inner-wrapper"] article[role="pge-title-content"] {
-	padding-left: 41px
+	margin: 0 auto;
+	width: 80%;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header {
-	padding-bottom: 19px;
-	padding-top: 83px
+	margin-bottom: 20%;
+	padding-top: 10%;
+	width: 100%;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
-	font-size: 46px;
+	font-size: 3em;
 	line-height: 53px;
-	color: #FFF;
+	color: black;
 	font-weight: 100;
 	margin-bottom: 5px;
 }
@@ -328,9 +366,22 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
-	font-size: 20px;
+	padding: 20px;
+	font-size: 15px;
+	text-align: center;
 	line-height: 30px;
-	color: #FFF;
+	color: black;
+}
+
+@media (max-width: 1000px) {
+	main[role="main-home-wrapper"] article[role="pge-title-content"] p,
+	main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
+		padding: 20px;
+		font-size: 10px;
+		text-align: center;
+		line-height: 30px;
+		color: black;
+	}
 }
 
 
@@ -425,7 +476,7 @@ main[role="main-inner-wrapper"] .about-content {
 main[role="main-inner-wrapper"] .about-content p {
 	font-size: 17px;
 	line-height: 30px;
-	color: #FFF;
+	color: black;
 	padding-bottom: 20px
 }
 
@@ -434,7 +485,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan {
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure {
-	background-color: #FFF;
+	background-color: black;
 	position: relative;
 	overflow: hidden;
 	cursor: pointer
@@ -443,7 +494,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure {
 main[role="main-inner-wrapper"] .thumbnails-pan section figure,
 main[role="main-inner-wrapper"] .thumbnails-pan section figure,
 img,
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,
+main[role="main-inner-wrapper"] .thumbnails-pan section figure F40,
 section.blog-content figure,
 section.blog-content figure img,
 section.blog-content article {
@@ -461,7 +512,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption {
 	background-color: #fb5353;
 	margin: 0 69px;
 	text-align: center;
-	color: #FFF;
+	color: black;
 	padding-top: 16px;
 	padding-bottom: 27px
 }
@@ -482,7 +533,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5 {
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,
 section.blog-content:hover article {
 	background-color: #fb5353;
-	color: #FFF
+	color: black
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,
@@ -676,7 +727,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 }
 
 .work-details header h2 {
-	color: #FFF;
+	color: black;
 	font-size: 36px;
 	font-weight: 800
 }
