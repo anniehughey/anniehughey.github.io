@@ -331,18 +331,18 @@ header[role="header"] header ul>li {
 
 main[role="main-home-wrapper"],
 main[role="main-inner-wrapper"] {
-	padding-bottom: 90px
+	padding-bottom: 20px
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],
 main[role="main-inner-wrapper"] article[role="pge-title-content"] {
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
+	text-align: center;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header {
-	margin-bottom: 20%;
 	padding-top: 10%;
 	width: 100%;
 }

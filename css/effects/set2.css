@@ -22,6 +22,10 @@ li.right {
 	float: right;
 }
 
+.nav-up {
+	top: -40px;
+}
+
 
 /* video style */
 
