@@ -309,6 +309,36 @@ header[role="header"] nav ul>li {
 	}
 }
 
+@media (max-width: 400px) {
+	header[role="header"] img {
+		width: 100%;
+	}
+	header[role="header"] h1>a {
+		max-width: 60px;
+		display: block;
+		float: left
+	}
+	header[role="header"] nav ul {
+		display: inline-block;
+		position: fixed;
+		z-index: 60;
+		text-align: right;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		padding-top: 5%;
+		margin-bottom: 5%;
+	}
+	header[role="header"] nav ul>li {
+		font-weight: 100;
+		font-size: 1em;
+		padding: 0px;
+		display: inline-block;
+	}
+}
+
 header[role="header"] nav ul>li>a {
 	display: inline-block;
 	line-height: 72px;
