@@ -280,6 +280,9 @@ header[role="header"] nav ul>li {
 }
 
 @media (max-width: 800px) {
+	header[role="header"] {
+		margin-bottom: 5%;
+	}
 	header[role="header"] img {
 		width: 100%;
 	}
@@ -299,7 +302,7 @@ header[role="header"] nav ul>li {
 		padding: 0;
 		margin: 0;
 		padding-top: 5%;
-		margin-bottom: 5%;
+		margin-bottom: 10%;
 	}
 	header[role="header"] nav ul>li {
 		font-weight: 100;
@@ -310,6 +313,9 @@ header[role="header"] nav ul>li {
 }
 
 @media (max-width: 400px) {
+	header[role="header"] {
+		margin-bottom: 5%;
+	}
 	header[role="header"] img {
 		width: 100%;
 	}
@@ -329,7 +335,7 @@ header[role="header"] nav ul>li {
 		padding: 0;
 		margin: 0;
 		padding-top: 5%;
-		margin-bottom: 5%;
+		margin-bottom: 10%;
 	}
 	header[role="header"] nav ul>li {
 		font-weight: 100;
@@ -757,7 +763,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details,
 .blog-details {
 	padding: 0 69px;
-	margin-top: 73px
+	margin-top: 10%;
 }
 
 .work-details header h2 {
