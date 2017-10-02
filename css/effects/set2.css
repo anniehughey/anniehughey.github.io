@@ -13,9 +13,16 @@ img {
 
 /* nav */
 
+@media (max-width: 800px) {
+	li.left {
+		float: left;
+		width: 86px;
+	}
+}
+
 li.left {
 	float: left;
-	width: 86px;
+	max-width: 150px;
 }
 
 li.right {
