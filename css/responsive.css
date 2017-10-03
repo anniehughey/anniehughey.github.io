@@ -90,7 +90,7 @@
 		font-size: 1em
 	}
 	header[role="header"] nav ul>li>a {
-		line-height: 15px
+		line-height: 72px
 	}
 	main[role="main-home-wrapper"] article[role="pge-title-content"],
 	main[role="main-inner-wrapper"] article[role="pge-title-content"] {
@@ -98,7 +98,7 @@
 	}
 	main[role="main-home-wrapper"] article[role="pge-title-content"] header,
 	main[role="main-inner-wrapper"] article[role="pge-title-content"] header {
-		padding-top: 10px
+		padding-top: 10%
 	}
 	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,
 	main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
