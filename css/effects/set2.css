@@ -6,14 +6,9 @@ img {
 
 /* RESUME */
 
-.resume-container {
-	height: 1050px;
-	width: auto;
-}
-
 .resume {
-	width: 100%;
-	display: block;
+	margin-top: -10%;
+	height: 1050px;
 }
 
 
