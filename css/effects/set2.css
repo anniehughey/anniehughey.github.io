@@ -234,7 +234,7 @@ a:hover {
 .grid figure figcaption>a {
 	z-index: 1000;
 	text-indent: 200%;
-	white-space: nowrap;
+	/*	white-space: nowrap;*/
 	font-size: 0;
 	opacity: 0;
 }
@@ -274,6 +274,7 @@ figure.effect-oscar {
 
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
 	background-color: rgba(58, 52, 42, 0);
+	display: table;
 }
 
 figure.effect-oscar img {
@@ -285,24 +286,32 @@ figure.effect-oscar img {
 
 figure.effect-oscar figcaption {
 	padding: 2em;
+	padding-top: 100%;
 	background-color: rgba(58, 52, 42, 0);
+	display: table-caption;
+	caption-side: top;
+	/*
 	-webkit-transition: background-color 0.35s;
 	transition: background-color 0.35s;
+*/
 }
 
+
+/*
 figure.effect-oscar figcaption::before {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
+	top: 200px;
+	right: 200px;
+	bottom: 200px;
+	left: 200px;
 	border: 1px solid #fff;
 	content: '';
 }
 
 figure.effect-oscar h2 {
+	color: black;
 	font-weight: 300;
-	margin: 15px;
+	margin-top: 350px;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0, 100%, 0);
@@ -343,6 +352,7 @@ figure.effect-oscar:hover figcaption {
 figure.effect-oscar:hover img {
 	opacity: 0.5;
 }
+*/
 
 @media screen and (max-width: 50em) {
 	.content {
