@@ -388,7 +388,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header {
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
 	font-size: 2em;
-	line-height: 20px;
+	line-height: 40px;
 	color: black;
 	font-weight: 100;
 	margin-bottom: 5px;
@@ -397,7 +397,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h1,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h1 {
 	font-size: 2.25em;
-	line-height: 25px;
+	line-height: 50px;
 	color: #fb5353;
 	font-weight: 200;
 	margin-bottom: 5px;
@@ -416,7 +416,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
 	padding: 20px;
 	font-size: 15px;
 	text-align: center;
-	line-height: 15px;
+	line-height: 30px;
 	color: black;
 }
 
