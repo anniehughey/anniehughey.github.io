@@ -75,12 +75,18 @@ li.right {
 }
 */
 
+.videoCenter {
+	margin: 0 auto;
+	width: 600px;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%;
 	/* 16:9 */
 	padding-top: 25px;
 	height: 0;
+	text-align: center;
 }
 
 .videoWrapper iframe {
@@ -194,10 +200,6 @@ a:hover {
 	-ms-filter: blur(15px);
 	filter: blur(2px);
 	opacity: 0.35;*/
-}
-
-.grid li:hover {
-	box-shadow: 5px 10px #888888;
 }
 
 .grid figure figcaption {
