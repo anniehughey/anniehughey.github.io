@@ -413,6 +413,8 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,
 main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
+	margin: 0 auto;
+	width: 60%;
 	padding: 20px;
 	font-size: 15px;
 	text-align: center;
