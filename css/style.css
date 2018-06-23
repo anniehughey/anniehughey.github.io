@@ -250,7 +250,7 @@ header[role="header"] h1>a {
 }
 
 header[role="header"] nav {
-	padding-top: 10px;
+	/*	padding-top: 10px;*/
 	transition-delay: 0s;
 	transition-duration: 0.6s;
 	transition-property: all;
@@ -276,7 +276,7 @@ header[role="header"] nav ul {
 
 header[role="header"] nav ul>li {
 	font-weight: 100;
-	font-size: 1em;
+	font-size: 1.5em;
 	padding: 10px;
 	display: inline-block;
 }
