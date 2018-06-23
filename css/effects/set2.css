@@ -41,10 +41,12 @@ li.left {
 	float: left;
 	max-width: 150px;
 	margin: 0;
+	padding: 0;
 }
 
 li.right {
 	float: right;
+	padding: 0;
 }
 
 .nav-up {
