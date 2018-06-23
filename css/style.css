@@ -235,7 +235,7 @@ button:focus,
 
 header[role="header"] {
 	padding-top: 5%;
-	max-height: 10%;
+	/*	max-height: 10%;*/
 }
 
 header[role="header"] h1 {
@@ -276,7 +276,7 @@ header[role="header"] nav ul {
 
 header[role="header"] nav ul>li {
 	font-weight: 100;
-	font-size: 2em;
+	font-size: 1em;
 	padding: 10px;
 	display: inline-block;
 }
@@ -349,7 +349,7 @@ header[role="header"] nav ul>li {
 
 header[role="header"] nav ul>li>a {
 	display: inline-block;
-	line-height: 72px;
+	/*	line-height: 72px;*/
 	color: #9d9d9d;
 	max-width: 150px;
 }
