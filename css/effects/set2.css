@@ -164,7 +164,7 @@ a:hover {
 	position: relative;
 	list-style: none;
 	overflow: hidden;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -184,11 +184,11 @@ a:hover {
 }
 
 .grid li img {
-	position: relative;
-	display: block;
+	/*position: relative;
+	display: block;*/
 	min-height: 100%;
 	max-width: 100%;
-	background-color: black;
+	background-color: white;
 	opacity: 0.75;
 	/*-webkit-filter: blur(2px);
 	-moz-filter: blur(0px);
@@ -365,7 +365,7 @@ figure.effect-oscar:hover img {
 		display: inline-block;
 		float: none;
 		margin: 10px auto;
-		width: 100%;
+		width: 100px;
 	}
 }
 
