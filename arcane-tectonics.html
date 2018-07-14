@@ -130,7 +130,7 @@
 						<h2>The Approach</h2>
 						<h3>Team Workflow</h3>
 						<p>Because the team comprised of six members, four programmers and two designers, from very different backgrounds, setting expectations and standards was extremely important for the success of the game. In our team workflow document we established weekly meeting times, creative conflict resolution procedures, task tables, file sharing expectations, communication methods, and interal & external deadline expectations. We then planned out tasks and goals for each sprint and prototype release including: Non-digital Prototype, Gameplay Prototype, Technical Prototype, Alpha Release, Closed Beta Release, Open Beta Release, and the GDIAC Showcase.</p>
-						<h3>Initial Design Goal</h3>
+						<h3>Initial Design Goals</h3>
 						<p>To create engaging, strategic, and rewarding combat encounters through challenging combinations of enemy attack patterns and special attributes. To maintain the simple usability of a match-3 puzzler.</p>
 						<p><strong>Emotion:</strong> Ethereal, Dreamy, Protective</p>
 						<p><strong>Target Audience:</strong> Match-three fans and people who enjoy casually strategic games.</p>
@@ -216,26 +216,26 @@
 						<h2>Interaction Design</h2>
 
 						<h3>Player Actions</h3>
-						<p><strong>Move Tiles (Critical)</strong></p>
+						<p><strong>1. Move Tiles (Critical)</strong></p>
 						<p> <strong>Input:</strong> The player drags their finger on the screen. </p>
 						<p> <strong>Limitation: </strong>It must be the player’s turn for them to move. The player must press their finger on a tile, drag their finger in a direction, then releases their finger. Also, one enemy type has an ability that stops the player from moving the row and column the enemy occupies. Note that this is not the case with all enemies. </p>
 						<p><strong> Outcome: </strong>The row or column that the player dragged moves as far as the player dragged it. The tiles that move off the board wrap around to the other side of the board.
 						</p>
 						<h3>Player Interactions</h3>
-						<p><strong>Match (Critical)</strong></p>
+						<p><strong>1. Match (Critical)</strong></p>
 						<p><strong>Trigger:</strong> Three or more tiles of the same color form a straight line.</p>
 
 						<p><strong>Outcome:</strong> All tiles in the match are removed, and any enemies on the matched tiles are destroyed. Then the tiles are randomly replaced with new tiles.</p>
 
 						<p><strong>Control:</strong> After the player moves tiles, this match interaction has the possibility of triggering.</p>
 
-						<p><strong>Enemy Movement (Critical)</strong></p>
+						<p><strong>2. Enemy Movement (Critical)</strong></p>
 						<p><strong>Trigger: </strong> The player’s turn ends and the board finishes replacing any matches. If there are any enemies, this interaction will trigger.</p>
 
 						<p><strong>Outcome: </strong> All enemies move across the board according to their movement patterns.</p>
 
 						<p><strong>Control: </strong> After the player moves tiles, any existing matches will be replaced, then this interaction will be triggered. This interaction is the beginning of the enemy turn.</p>
-						<p><strong>Enemy Attack (Critical)</strong></p>
+						<p><strong>3. Enemy Attack (Critical)</strong></p>
 						<p><strong>Trigger: </strong> After the enemy movement interaction finishes, this interaction is triggered.</p>
 
 						<p><strong>Outcome: </strong> All enemies attack using their attack patterns and destroy Mika or any allies they hit with the attack.</p>
@@ -247,38 +247,38 @@
 						<h2>Player Challenges</h2>
 						<p>The challenges in Arcane Tectonics almost entirely consist of protecting Mika and her allies from being attacked by the enemies on the board. Since the objective is to kill all enemies, the challenge that blocks the player from completing the objective is mainly the enemies killing Mika first, causing the player to lose the game. Enemies have three components: A movement pattern, attack pattern, and special attributes. All enemies have one movement pattern and one attack pattern, but may have more than one special attribute or none at all. Different types of enemies can work together to create a variety of challenges, forcing the player to make moves that protect Mika and her allies rather than focusing on the objective; good players will be able to do both.</p>
 						<h3>Player Patterns</h3>
-						<p><strong>Move Forward (“Dumb” movement): </strong> During its turn, the enemy moves forward in the direction it is facing. If the enemy hits a wall/the edge of the board, it turns around. Enemies with this movement pattern by themselves do not provide a difficult challenge, especially if the enemy has a melee attack pattern. The player can see the path these enemies will take and can easily move Mika or her allies out of the way. Easy levels will consist of enemies that use this movement pattern.</p>
+						<p><strong>1. Move Forward (“Dumb” movement): </strong> During its turn, the enemy moves forward in the direction it is facing. If the enemy hits a wall/the edge of the board, it turns around. Enemies with this movement pattern by themselves do not provide a difficult challenge, especially if the enemy has a melee attack pattern. The player can see the path these enemies will take and can easily move Mika or her allies out of the way. Easy levels will consist of enemies that use this movement pattern.</p>
 
-						<p><strong>Move Toward Closest Ally (“Smart” movement): </strong> During its turn, the enemy moves toward the closest ally. Enemies that move towards the player provide a much more dificult challenge. Players can no longer simply move Mika or her allies out of the enemies path. Players are forced to run away from these enemies or eliminate them before they can close the distance.</p>
+						<p><strong>2. Move Toward Closest Ally (“Smart” movement): </strong> During its turn, the enemy moves toward the closest ally. Enemies that move towards the player provide a much more dificult challenge. Players can no longer simply move Mika or her allies out of the enemies path. Players are forced to run away from these enemies or eliminate them before they can close the distance.</p>
 
-						<p><strong>Immobile: </strong> Does not move during its turn. Enemies that do not move provide a trivial challenge if they have a melee attack pattern, but become more powerful with ranged attacks and with certain special attributes described below.</p>
-						<p><strong>Teleport: </strong> Enemy teleports to other tiles of the same color/type around the board. Teleporting enemies provide some uncertainty in their movement. While the player can predict which tile of the same color the enemy might teleport to, they must consider all possibilities and move Mika and her allies accordingly.</p>
+						<p><strong>3. Immobile: </strong> Does not move during its turn. Enemies that do not move provide a trivial challenge if they have a melee attack pattern, but become more powerful with ranged attacks and with certain special attributes described below.</p>
+						<p><strong>4. Teleport: </strong> Enemy teleports to other tiles of the same color/type around the board. Teleporting enemies provide some uncertainty in their movement. While the player can predict which tile of the same color the enemy might teleport to, they must consider all possibilities and move Mika and her allies accordingly.</p>
 
 						<h3>Player Attack Pattern Ideas</h3>
-						<p><strong>Melee: </strong> This enemy can only attack an ally if the enemy moves onto the same tile as an ally. The most basic attack pattern and the easiest to avoid. Since enemies with this attack pattern must move onto the same tile that Mika and her allies are standing on, it can be very easy to simply move out of the way of a potential melee attack.</p>
+						<p><strong>1. Melee: </strong> This enemy can only attack an ally if the enemy moves onto the same tile as an ally. The most basic attack pattern and the easiest to avoid. Since enemies with this attack pattern must move onto the same tile that Mika and her allies are standing on, it can be very easy to simply move out of the way of a potential melee attack.</p>
 
-						<p><strong>Splash Melee/Range: </strong> This enemy can attack an ally if the ally is within X number of tiles surrounding the enemy. This attack pattern allows the enemy to effectively take control of a whole section of the board. Depending on their movement pattern, enemies can force the player to move Mika and allies very often if allowed to be kept alive.</p>
+						<p><strong>2. Splash Melee/Range: </strong> This enemy can attack an ally if the ally is within X number of tiles surrounding the enemy. This attack pattern allows the enemy to effectively take control of a whole section of the board. Depending on their movement pattern, enemies can force the player to move Mika and allies very often if allowed to be kept alive.</p>
 
-						<p><strong>Range Row/Column: </strong> This enemy can attack an ally if the ally occupies the same row or column as the enemy. Ranged attacks are powerful because they do not dependent on the actual distance from the enemy. If an enemy is allowed to move onto the same row/column as Mika and allies, it means instant death. Players have to account for the enemies’ movement pattern and pay attention to not move Mika and her allies to a row or column these enemies have access to.</p>
+						<p><strong>3. Range Row/Column: </strong> This enemy can attack an ally if the ally occupies the same row or column as the enemy. Ranged attacks are powerful because they do not dependent on the actual distance from the enemy. If an enemy is allowed to move onto the same row/column as Mika and allies, it means instant death. Players have to account for the enemies’ movement pattern and pay attention to not move Mika and her allies to a row or column these enemies have access to.</p>
 
-						<p><strong>Range Diagonal: </strong> This enemy can attack an ally if the ally occupies the same diagonal as the enemy. This attack pattern provides the same type of challenge as row/column ranged attacks, only in a different direction.</p>
+						<p><strong>4. Range Diagonal: </strong> This enemy can attack an ally if the ally occupies the same diagonal as the enemy. This attack pattern provides the same type of challenge as row/column ranged attacks, only in a different direction.</p>
 						<h3>Enemy Special Ability Ideas</h3>
-						<p><strong>Immovable: </strong> Player cannot move the row/column this enemy resides on. This special ability gives enemies the power to lock Mika and her allies to only one direction of movement if they happen to find themselves on the same row or column as an immovable enemy. If Mika somehow ends up on the same row and column of two immovable enemies, then she cannot move at all. Players must first destroy these enemies in order to move the locked row/column.</p>
-						<p><strong>Duplication: </strong> Enemy spawns a number of duplicates after every X number of turns. Duplication provides a sense of urgency to the player. If they do not kill duplicating enemies within a certain amount of turns, the game becomes exponentially more difficult.</p>
+						<p><strong>1. Immovable: </strong> Player cannot move the row/column this enemy resides on. This special ability gives enemies the power to lock Mika and her allies to only one direction of movement if they happen to find themselves on the same row or column as an immovable enemy. If Mika somehow ends up on the same row and column of two immovable enemies, then she cannot move at all. Players must first destroy these enemies in order to move the locked row/column.</p>
+						<p><strong>2. Duplication: </strong> Enemy spawns a number of duplicates after every X number of turns. Duplication provides a sense of urgency to the player. If they do not kill duplicating enemies within a certain amount of turns, the game becomes exponentially more difficult.</p>
 
-						<p><strong>Weakness: </strong> Enemy can only be destroyed by a certain type of tile. This ability provides enemies with some protection from certain moves a player may be able to make. Enemies with this ability force the player to plan ahead about not only how to make a match, but also which color specifically to match with.</p>
+						<p><strong>3. Weakness: </strong> Enemy can only be destroyed by a certain type of tile. This ability provides enemies with some protection from certain moves a player may be able to make. Enemies with this ability force the player to plan ahead about not only how to make a match, but also which color specifically to match with.</p>
 
-						<p><strong>Ineffective: </strong> Enemy cannot be destroyed by a certain type of tile. This ability is effectively the same as the weakness ability, but not as powerful. Rather than only being able to be killed by a certain tile color, these enemies can be killed by all but specific tile colors. The same strategy can be used; players must think ahead about not only making a match, but also which color to use in the match.</p>
+						<p><strong>4. Ineffective: </strong> Enemy cannot be destroyed by a certain type of tile. This ability is effectively the same as the weakness ability, but not as powerful. Rather than only being able to be killed by a certain tile color, these enemies can be killed by all but specific tile colors. The same strategy can be used; players must think ahead about not only making a match, but also which color to use in the match.</p>
 
-						<p><strong>Tile Mover: </strong> Enemy moves the tiles during its turn. Being able to move tiles is something normally only the player is able to do. Enemies with this ability have the potential to completely ruin a players plan or strategy to kill an enemy or might even move Mika and her allies to dangerous situations. At the same time, it also provides a chance for enemies to accidentally kill each other.</p>
+						<p><strong>5. Tile Mover: </strong> Enemy moves the tiles during its turn. Being able to move tiles is something normally only the player is able to do. Enemies with this ability have the potential to completely ruin a players plan or strategy to kill an enemy or might even move Mika and her allies to dangerous situations. At the same time, it also provides a chance for enemies to accidentally kill each other.</p>
 
-						<p><strong>Fly: </strong> Enemy is not moved by the tiles beneath it when the player moves the tiles. Enemies that fly force the player to bring the matches to them, rather than being able to move an enemy to a matching location.</p>
+						<p><strong>6. Fly: </strong> Enemy is not moved by the tiles beneath it when the player moves the tiles. Enemies that fly force the player to bring the matches to them, rather than being able to move an enemy to a matching location.</p>
 
-						<p><strong>Large: </strong> Enemy occupies multiple tiles. Large enemies by themselves can be intimidating but may be easy to kill. This ability truly shines in combination with the immovable ability, potentially blocking a large number of rows and columns from being moved. </p>
+						<p><strong>7. Large: </strong> Enemy occupies multiple tiles. Large enemies by themselves can be intimidating but may be easy to kill. This ability truly shines in combination with the immovable ability, potentially blocking a large number of rows and columns from being moved. </p>
 
-						<p><strong>Explosion: </strong> Enemy explodes when destroyed and everything within X number of tiles around it is destroyed. Exploding enemies provide both a challenge and an advantage for skilled players. While the player normally does not have to pay attention to where on the board they kill an enemy, the explosion ability creates situations where this is no longer true. Killing an exploding enemy near Mika or her allies will kill them. Players are forced to move these enemies away and can even use the explosion to kill other enemies.</p>
+						<p><strong>8. Explosion: </strong> Enemy explodes when destroyed and everything within X number of tiles around it is destroyed. Exploding enemies provide both a challenge and an advantage for skilled players. While the player normally does not have to pay attention to where on the board they kill an enemy, the explosion ability creates situations where this is no longer true. Killing an exploding enemy near Mika or her allies will kill them. Players are forced to move these enemies away and can even use the explosion to kill other enemies.</p>
 
-						<p><strong>Speed Boost: </strong> Grants every enemy on the board an extra move. (All enemies on the board get 2 turns to the player’s 1 turn). This ability can increase the difficulty of almost any enemy. One turn can be the meaning of winning or losing; having an any enemy be able to move and attack twice means that the player is forced to think two steps ahead.</p>
+						<p><strong>9. Speed Boost: </strong> Grants every enemy on the board an extra move. (All enemies on the board get 2 turns to the player’s 1 turn). This ability can increase the difficulty of almost any enemy. One turn can be the meaning of winning or losing; having an any enemy be able to move and attack twice means that the player is forced to think two steps ahead.</p>
 						<h3>Level Design Patterns</h3>
 						<p>Our levels are designed to reward strategy and thinking-ahead. The player should exercise caution when making a move, and should always think through their moves during more challenging levels. The player is supposed to feel mild anxiety from the encroaching enemies attacking Mika and her allies. Our first goal for level design is to create variable levels through teaching the player to predict enemy behavior, manipulate the board, and reposition pieces around the board by mitigating dominant strategies, like the “running away” strategy found in early playtesting. Levels are designed based on the starting geographical board configuration of elemental tiles, four enemy types, Mika, and crystals. Easy levels will teach the player to predict enemy behavior, manipulate the board, and reposition pieces around the board. Medium levels will begin to challenge the player and test the player’s understanding of the game mechanics. These levels will introduce Mika’s allies whom she must save to progress through the game. The allies are a countermeasure to the “running away” strategy, and they force the player to be strategic about positioning and match-making. Hard levels will be even more challenging and will feel like puzzles where the player must think carefully about every move.
 						</p>
@@ -298,10 +298,10 @@
 						<p><strong>Rooting Enemy Pattern (Fly Trap): </strong> In this pattern, the rooting enemy prevents the row and column that it resides on from being moved. If Mika is on the same row or column as the enemy, then the player can no longer move Mika by moving said row/column. This pattern can potentially put Mika in dangerous situations. To overcome this pattern, the player can make a match using the tile the enemy is on to destroy it, or move Mika perpendicularly away from the rooting enemy.
 						</p>
 						<h3>Composite Interaction Patterns</h3>
-						<p><strong>Rooted Ally Pattern: </strong>Typically a player is able to move Mika in order to protect her. This combination of a ranged enemy controlling the row and the rooting enemy controlling the column forces the player to deal with the ranged enemy or lose. The player must either move the ranged enemy or attack the ranged enemy.</p>
-						<p><strong>Player Gridlock Pattern: </strong>This composite pattern results in all enemies blocking every possible location that the player can move Mika to. In order to continue from this position the player must make a match; simply moving Mika and enemies with no match will not work. This pattern can only be successfully traversed if it is planned for, it cannot be solved reactively.
+						<p><strong>1. Rooted Ally Pattern: </strong>Typically a player is able to move Mika in order to protect her. This combination of a ranged enemy controlling the row and the rooting enemy controlling the column forces the player to deal with the ranged enemy or lose. The player must either move the ranged enemy or attack the ranged enemy.</p>
+						<p><strong>2. Player Gridlock Pattern: </strong>This composite pattern results in all enemies blocking every possible location that the player can move Mika to. In order to continue from this position the player must make a match; simply moving Mika and enemies with no match will not work. This pattern can only be successfully traversed if it is planned for, it cannot be solved reactively.
 						</p>
-						<p><strong>Chase Pattern: </strong>This composite pattern limits the safe positions that Mika can safely move to, detracting from the strategy of running from enemies. The player must make a match under these enemies in order to free up board space.</p>
+						<p><strong>3. Chase Pattern: </strong>This composite pattern limits the safe positions that Mika can safely move to, detracting from the strategy of running from enemies. The player must make a match under these enemies in order to free up board space.</p>
 					</li>
 					<li>
 						<h2>Results</h2>
