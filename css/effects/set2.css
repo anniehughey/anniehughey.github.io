@@ -164,7 +164,7 @@ a:hover {
 	position: relative;
 	list-style: none;
 	overflow: hidden;
-	text-align: left;
+	text-align: center;
 }
 
 
@@ -245,6 +245,24 @@ a:hover {
 	word-spacing: -0.15em;
 	color: #FFF;
 }
+
+/*
+.grid p {
+	text-align: left;
+}
+
+.grid h2 {
+	text-align: left;
+}
+
+.grid h3 {
+	text-align: left;
+}
+
+.grid h1 {
+	text-align: left;
+}
+*/
 
 .grid figure h2 span {}
 

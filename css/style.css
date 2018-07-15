@@ -763,7 +763,8 @@ article[role="pge-title-content"].contact-header p a:hover {
 .work-details header h2 {
 	color: black;
 	font-size: 36px;
-	font-weight: 800
+	font-weight: 800;
+	text-align: left;
 }
 
 .work-details header a {
@@ -771,7 +772,8 @@ article[role="pge-title-content"].contact-header p a:hover {
 	color: #4c7ab5;
 	font-size: 18px;
 	font-weight: 800;
-	padding-top: 3px
+	padding-top: 3px;
+	text-align: left;
 }
 
 .work-details header a i {
@@ -793,7 +795,8 @@ article[role="pge-title-content"].contact-header p a:hover {
 	color: #666666;
 	line-height: 30px;
 	margin-bottom: 20px;
-	font-weight: 300
+	font-weight: 300;
+	text-align: left;
 }
 
 .work-details p strong {
@@ -805,7 +808,8 @@ article[role="pge-title-content"].contact-header p a:hover {
 }
 
 .work-images li {
-	margin-bottom: 50px
+	margin-bottom: 50px;
+	text-align: left;
 }
 
 
@@ -841,7 +845,8 @@ article[role="pge-title-content"].contact-header p a:hover {
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 300;
-	margin-bottom: 23px
+	margin-bottom: 23px;
+	text-align: left;
 }
 
 .comments-pan {

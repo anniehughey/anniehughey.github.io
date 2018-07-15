@@ -96,8 +96,7 @@
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
 
 					<h2>Arcane Tectonics</h2>
-
-					<!--						<a href="images/info1300-images/syllabus.pdf" target="_blank">CHI Guidelines<i class="fa fa-external-link" aria-hidden="true"></i></a>-->
+					<p>User experience game designers have the difficult task of balancing the art of creating fun user problems while also removing them.</p>
 
 
 					<p>Arcane Tectonics is a match-three mobile game where the grid of tiles being moved around are pieces of the ground being moved by Mika’s magical powers. Enemies and other game pieces stand on the ground, so they are moved around as the ground tiles move. To clear each level, the player must use Mika’s powers to slide tiles around and create matches to destroy all of the enemies on the board.</p>
@@ -110,10 +109,10 @@
 						<br/> Tyler Thompson (Programming Lead)
 						<br/>Alejandro DeVore (Programmer & Sound Design)
 						<br/> Joseph Ienna (Programmer) </p>
-					<p><strong>Made For</strong><br/> Android & iOS in CS 4152: Advanced Topics in Computer Game Development at Cornell University, spring 2018</p>
+					<p><strong>Made For</strong><br/> Android & iOS in <a href="http://www.cs.cornell.edu/courses/cs4152/2018sp/project/requirements.php">CS 4152: Advanced Topics in Computer Game Development at Cornell University</a>, spring 2018</p>
 					<p><strong>Awards: </strong>Most Innovative, 2nd Place People's Choice</p>
 				</div>
-				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><img src="images/AT-images/AT03.jpeg" alt="Arcane Tectonics loading"><br><img src="images/AT-images/AT08.jpeg" alt="Arcane Tectonics In Game">
+				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><img src="images/AT-images/AT03.jpeg" alt="Arcane Tectonics loading"><br><img src="images/AT-images/AT13.jpeg" alt="Arcane Tectonics In Game">
 				</div>
 
 			</div>
@@ -212,7 +211,7 @@
 						<h3>Gameplay Specification</h3>
 						<p>Arcane Tectonics aims to provide a strategic match-three combat experience. We want the player to reason through each of their moves, so each enemy type will have predictable movement and attack patterns. The factor that will make Arcane Tectonics unique is our combination of match-three mechanics and characters walking on top of the matching tiles, treating the tiles like the floor and environment. Our most important design goal is to make engaging, strategic, and rewarding combat encounters. This will be done primarily through creating challenging combinations of enemy specific attack patterns and special attributes. By presenting the player with combinations of enemies, we will be able to increase the difficulty in ways that force the player to be more strategic with their movements. For example, the player will have to prioritize attacks on different enemy types.
 						</p>
-						<p><strong>Objectives: </strong> The primary objective is to destroy all the enemies on the board while protecting Mika. Mika and each enemy occupy a tile on the board. If Mika is killed by an enemy, then the player loses the level. If the player destroys all the enemies on the board, then the player wins the level. The secondary objective is to protect the ally pieces on the board. In some levels there are allies on the board, who the player can save. These allies are similar to a star rating for each level; for example, if the player beats the level without any allies being destroyed, the player gets all three stars.
+						<p><strong>Objectives: </strong> The primary objective is to destroy all enemies on the board while protecting Mika. Mika and each enemy occupy a tile on the board. If Mika is killed by an enemy, then the player loses the level. If the player destroys all the enemies on the board, then the player wins the level. The secondary objective is to protect the ally pieces on the board. In some levels there are allies on the board, who the player can save. These allies are similar to a star rating for each level; for example, if the player beats the level without any allies being destroyed, the player gets all three stars.
 						</p>
 					</li>
 					<li>
@@ -256,7 +255,8 @@
 
 						<p><strong>3. Immobile: </strong> Does not move during its turn. Enemies that do not move provide a trivial challenge if they have a melee attack pattern, but become more powerful with ranged attacks and with certain special attributes described below.</p>
 						<p><strong>4. Teleport: </strong> Enemy teleports to other tiles of the same color/type around the board. Teleporting enemies provide some uncertainty in their movement. While the player can predict which tile of the same color the enemy might teleport to, they must consider all possibilities and move Mika and her allies accordingly.</p>
-
+					</li>
+					<li>
 						<h3>Player Attack Pattern Ideas</h3>
 						<p><strong>1. Melee: </strong> This enemy can only attack an ally if the enemy moves onto the same tile as an ally. The most basic attack pattern and the easiest to avoid. Since enemies with this attack pattern must move onto the same tile that Mika and her allies are standing on, it can be very easy to simply move out of the way of a potential melee attack.</p>
 
@@ -285,6 +285,8 @@
 						<h3>Level Design Patterns</h3>
 						<p>Our levels are designed to reward strategy and thinking-ahead. The player should exercise caution when making a move, and should always think through their moves during more challenging levels. The player is supposed to feel mild anxiety from the encroaching enemies attacking Mika and her allies. Our first goal for level design is to create variable levels through teaching the player to predict enemy behavior, manipulate the board, and reposition pieces around the board by mitigating dominant strategies, like the “running away” strategy found in early playtesting. Levels are designed based on the starting geographical board configuration of elemental tiles, four enemy types, Mika, and crystals. Easy levels will teach the player to predict enemy behavior, manipulate the board, and reposition pieces around the board. Medium levels will begin to challenge the player and test the player’s understanding of the game mechanics. These levels will introduce Mika’s allies whom she must save to progress through the game. The allies are a countermeasure to the “running away” strategy, and they force the player to be strategic about positioning and match-making. Hard levels will be even more challenging and will feel like puzzles where the player must think carefully about every move.
 						</p>
+					</li>
+					<li>
 						<div class="row">
 							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><img src="images/AT-images/crat.png" alt="Cat Rowena Chen"></div>
 							<p><strong>Dumb Enemy Pattern (Cat): </strong>In this pattern, Mika is adjacent to a “dumb” enemy, which moves back and forth along a column or row. Because of the simplicity of the AI, this pattern is meant more to limit the player’s movement rather than serve as a fatal threat. In the diagram, the player will lose on the next turn unless an appropriate action is taken (because the enemy is facing to the right). The player has three choices in order to overcome this pattern. (1) The player can move the row/column that Mika is on such that she is no longer in the path of the enemy. (2) The player can move the row/column that the enemy is on. (3) If possible, the player can create a match using the tile that the enemy is standing on to destroy it. </p>
@@ -307,11 +309,36 @@
 						<p><strong>3. Chase Pattern: </strong>This composite pattern limits the safe positions that Mika can safely move to, detracting from the strategy of running from enemies. The player must make a match under these enemies in order to free up board space.</p>
 					</li>
 					<li>
+						<h3>User Flow</h3><img src="images/AT-images/screen-map.png" alt="Arcane Tectonics Flow">
+					</li>
+					<li>
 						<h2>Results</h2>
+						<h3>Level Select Menu</h3>
+						<div class="row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img src="images/AT-images/AT04.jpeg" alt="level select 1"></div>
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img src="images/AT-images/AT05.jpeg" alt="level select 2"></div>
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img src="images/AT-images/AT06.jpeg" alt="level select 3"></div>
 
+						</div>
 
 					</li>
+					<li>
+						<h3>In Game User Interface</h3>
+						<div class="row">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img src="images/AT-images/AT07.jpeg" alt="UI 1"></div>
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img src="images/AT-images/AT10.jpeg" alt="UI 2"></div>
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img src="images/AT-images/AT13.jpeg" alt="UI 3"></div>
 
+						</div>
+					</li>
+					<li>
+						<h3>Win & Lose Menu</h3>
+						<div class="row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><img src="images/AT-images/AT12.jpeg" alt="Win"></div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><img src="images/AT-images/AT09.jpeg" alt="Lose"></div>
+
+						</div>
+					</li>
 				</ul>
 
 			</div>
