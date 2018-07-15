@@ -760,6 +760,14 @@ article[role="pge-title-content"].contact-header p a:hover {
 	margin-top: 10%;
 }
 
+@media (max-width: 800px) {
+	.work-details,
+	.blog-details {
+		padding: 0px;
+		margin-top: 10%;
+	}
+}
+
 .work-details header h2 {
 	color: black;
 	font-size: 36px;
