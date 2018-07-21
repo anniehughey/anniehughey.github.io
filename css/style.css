@@ -271,7 +271,7 @@ header[role="header"] nav ul {
 	padding-top: 0px;
 	padding-right: 60px;
 	margin-bottom: 0px;
-	background-color: white;
+	background-color: #E6E6E9;
 }
 
 header[role="header"] nav ul>li {
@@ -426,7 +426,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
 /*===== footer ===*/
 
 footer[role="footer"] {
-	background-color: #FFF;
+	background-color: #E6E6E9;
 	padding-top: 100px;
 	padding-bottom: 77px
 }

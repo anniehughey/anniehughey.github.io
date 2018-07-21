@@ -16,28 +16,26 @@ img {
 }
 
 .button1 {
-	background-color: white;
+	background-color: #E6E6E9;
 	color: black;
 	border: 1px solid #00290A;
 	min-width: 40%;
-	margin: 10px;
+	margin: 20px;
 }
 
 .button1:hover {
 	background-color: #00290A;
 	color: white;
 	border: 1px solid black;
-	min-width: 30%;
-	margin: 10px;
+	min-width: 40%;
+	margin: 20px;
 }
 
 .index {
 	text-align: left;
 }
 
-section img {
-	margin: 10%;
-}
+section img {}
 
 
 /* logo style */
@@ -319,7 +317,7 @@ figure.effect-oscar {
 	/*background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
 
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
-	background-color: white;
+	background-color: #E6E6E9;
 	display: table;
 }
 
