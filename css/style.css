@@ -347,7 +347,7 @@ header[role="header"] nav ul>li>a {
 header[role="header"] nav ul>li:hover a,
 header[role="header"] nav ul>li.nav-active a {
 	text-decoration: none;
-	color: #4c7ab5;
+	color: #00290A;
 }
 
 header[role="header"] header ul>li {
