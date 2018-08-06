@@ -347,7 +347,7 @@ header[role="header"] nav ul>li>a {
 header[role="header"] nav ul>li:hover a,
 header[role="header"] nav ul>li.nav-active a {
 	text-decoration: none;
-	color: #00290A;
+	color: #363F62;
 }
 
 header[role="header"] header ul>li {
@@ -461,7 +461,7 @@ footer[role="footer"] nav>ul>li>a {
 
 footer[role="footer"] nav>ul>li:hover a {
 	text-decoration: none;
-	color: #4c7ab5;
+	color: #363F62;
 }
 
 footer[role="footer"] ul[role="social-icons"] {
@@ -790,12 +790,12 @@ article[role="pge-title-content"].contact-header p a:hover {
 }
 
 .work-details header a:hover {
-	color: #0d0d0d;
+	color: #363F62;
 	text-decoration: none
 }
 
 .work-details header a:hover i {
-	color: #4c7ab5
+	color: #363F62
 }
 
 .work-details p {

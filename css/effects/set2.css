@@ -7,6 +7,20 @@ img {
 	max-width: 100%!important;
 }
 
+.face {
+	width: 75%;
+	padding: 3%;
+	margin: 5%;
+}
+
+@media (max-width: 600px) {
+	.face {
+		width: 50%
+	}
+}
+
+.journey {}
+
 
 /* RESUME */
 
@@ -15,27 +29,73 @@ img {
 	height: 1050px;
 }
 
+.index-header {
+	background: #363F62;
+	width: 100%;
+	color: #E6E6E9;
+}
+
+.index-header h2 {
+	color: #E6E6E9;
+}
+
+.index-header h1 {
+	color: #E6E6E9;
+}
+
+.index-header .contact {
+	text-align: center;
+	padding: 5%;
+}
+
+.index-header .contact a {
+	text-align: center;
+	line-height: 2em;
+}
+
+.index-header a {
+	color: #E6E6E9;
+	margin: 0 auto;
+}
+
 .button1 {
-	background-color: #E6E6E9;
-	color: black;
-	border: 1px solid #00290A;
-	min-width: 40%;
-	margin: 20px;
+	align-self: left;
+	padding: 3% 30% 3% 30%;
+	margin-left: 3%;
+	color: white;
+	font-family: lato;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #363F62;
+	border-radius: 10px;
+	transition: all 0.1s ease-in-out;
+	cursor: pointer;
 }
 
 .button1:hover {
-	background-color: #00290A;
-	color: white;
-	border: 1px solid black;
-	min-width: 40%;
-	margin: 20px;
+	background: #29304B;
+}
+
+.button1:active {
+	transform: scale(1.025);
 }
 
 .index {
 	text-align: left;
 }
 
-section img {}
+.img-responsive {
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.img-responsive {
+		width: 75%;
+		align-content: center;
+	}
+}
 
 
 /* logo style */
@@ -151,7 +211,7 @@ a:hover {
 }
 
 .socialbtns .fa {
-	color: #FFF;
+	color: #E6E6E9;
 	text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
 	-webkit-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
 	-moz-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
@@ -169,10 +229,10 @@ a:hover {
 
 .socialbtns .fa:hover {
 	color: #000;
-	text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
-	-webkit-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
-	-moz-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
-	-o-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
+	text-shadow: 1px 1px 0px #E6E6E9, 1px -1px 0px #E6E6E9, -1px 1px 0px #E6E6E9, -1px -1px 0px #E6E6E9;
+	-webkit-text-shadow: 1px 1px 0px #E6E6E9, 1px -1px 0px #E6E6E9, -1px 1px 0px #E6E6E9, -1px -1px 0px #E6E6E9;
+	-moz-text-shadow: 1px 1px 0px #E6E6E9, 1px -1px 0px #E6E6E9, -1px 1px 0px #E6E6E9, -1px -1px 0px #E6E6E9;
+	-o-text-shadow: 1px 1px 0px #E6E6E9, 1px -1px 0px #E6E6E9, -1px 1px 0px #E6E6E9, -1px -1px 0px #E6E6E9;
 	transition: all ease 0.5s;
 	-moz-transition: all ease-in 0.5s;
 	-webkit-transition: all ease-in 0.5s;
@@ -319,19 +379,20 @@ figure.effect-oscar {
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
 	background-color: #E6E6E9;
 	display: table;
+	align-content: center;
 }
 
 figure.effect-oscar img {
 	opacity: 1;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
-	background-color: rgba(58, 52, 42, 1);
+	background-color: #E6E6E9;
 }
 
 figure.effect-oscar figcaption {
 	padding: 2em;
 	padding-top: 100%;
-	background-color: rgba(58, 52, 42, 0);
+	background-color: #E6E6E9;
 	display: table-caption;
 	caption-side: top;
 	/*
