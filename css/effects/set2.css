@@ -29,6 +29,7 @@ section p {
 	font-size: 2vw;
 	font-family: lato;
 	font-weight: 300;
+	line-height: 3vw;
 }
 
 img {
@@ -115,10 +116,6 @@ img {
 	transform: scale(1.025);
 }
 
-.index {
-	text-align: left;
-}
-
 .img-responsive {
 	padding-top: 10%;
 	width: 100%;
@@ -130,6 +127,16 @@ img {
 		width: 75%;
 		align-content: center;
 	}
+}
+
+.index {
+	align-content: center;
+}
+
+.process-img {
+	align-content: center;
+	width: 60%;
+	margin: 0 auto;
 }
 
 
