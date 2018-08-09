@@ -94,16 +94,15 @@ img {
 
 .button1 {
 	align-self: left;
-	padding: 3% 30% 3% 30%;
+	padding: 3% 20% 3% 20%;
 	margin-left: 3%;
 	color: white;
 	font-family: lato;
-	font-size: 1em;
+	font-size: 2vw;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	text-align: center;
 	background: #363F62;
-	border-radius: 10px;
 	transition: all 0.1s ease-in-out;
 	cursor: pointer;
 }
@@ -118,7 +117,7 @@ img {
 
 .img-responsive {
 	padding-top: 10%;
-	width: 100%;
+	width: 90%;
 	align-content: center;
 }
 
@@ -344,42 +343,24 @@ a:hover {
 	opacity: 0;
 }
 
+.grid h1,
+h2,
+h3,
+p {
+	padding-left: 5%;
+}
+
 .grid figure h2 {
 	word-spacing: -0.15em;
 	color: #FFF;
 	font-size: 8vw;
 }
 
-
-/*
-.grid p {
-	text-align: left;
-}
-
-.grid h2 {
-	text-align: left;
-}
-
-.grid h3 {
-	text-align: left;
-}
-
-.grid h1 {
-	text-align: left;
-}
-*/
-
 .grid figure h2 span {}
 
 .grid figure h2,
 .grid figure p {
 	margin: 0;
-}
-
-.grid p {
-	font-size: 2vw;
-	line-height: 22px;
-	padding: 10px;
 }
 
 
