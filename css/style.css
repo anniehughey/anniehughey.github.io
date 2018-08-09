@@ -276,7 +276,7 @@ header[role="header"] nav ul {
 
 header[role="header"] nav ul>li {
 	font-weight: 100;
-	font-size: 1.5em;
+	font-size: 2vw;
 	/*	padding: 10px;*/
 	display: inline-block;
 }
@@ -303,7 +303,7 @@ header[role="header"] nav ul>li {
 	}
 	header[role="header"] nav ul>li {
 		font-weight: 100;
-		font-size: 1.5em;
+		font-size: 2vw;
 		padding: 5px;
 		display: inline-block;
 	}
@@ -331,7 +331,7 @@ header[role="header"] nav ul>li {
 	}
 	header[role="header"] nav ul>li {
 		font-weight: 100;
-		font-size: 1.5em;
+		font-size: 4vw;
 		padding: 0px;
 		display: inline-block;
 	}
