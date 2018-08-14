@@ -342,6 +342,7 @@ header[role="header"] nav ul>li>a {
 	/*	line-height: 72px;*/
 	color: #9d9d9d;
 	max-width: 150px;
+	font-weight: 100;
 }
 
 header[role="header"] nav ul>li:hover a,
