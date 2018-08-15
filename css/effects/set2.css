@@ -4,7 +4,10 @@
 
 .index-title {
 	text-align: center;
-	font-size: 3vw;
+}
+
+.head {
+	padding: 5%;
 }
 
 
@@ -61,7 +64,6 @@ img {
 
 .index-header {
 	background: #363F62;
-	width: 100%;
 	color: #E6E6E9;
 	margin-top: -10px;
 	padding-top: 3%;
@@ -116,8 +118,7 @@ img {
 }
 
 .img-responsive {
-	padding-top: 10%;
-	width: 90%;
+	padding: 10%;
 	align-content: center;
 }
 

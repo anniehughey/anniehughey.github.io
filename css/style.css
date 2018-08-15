@@ -159,6 +159,10 @@ main {
 	outline: 0;
 }
 
+body {
+	width: 100%;
+}
+
 article,
 aside,
 details,
@@ -342,7 +346,7 @@ header[role="header"] nav ul>li>a {
 	/*	line-height: 72px;*/
 	color: #9d9d9d;
 	max-width: 150px;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 header[role="header"] nav ul>li:hover a,
@@ -757,14 +761,14 @@ article[role="pge-title-content"].contact-header p a:hover {
 
 .work-details,
 .blog-details {
-	padding: 0 69px;
+	padding: 5%;
 	margin-top: 10%;
 }
 
 @media (max-width: 800px) {
 	.work-details,
 	.blog-details {
-		padding: 0px;
+		padding: 2%;
 		margin-top: 10%;
 	}
 }
